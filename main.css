@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    color: whitesmoke;
+}
+
+section {
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+section a{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.corazon {
+    font-size: 30px;
+}
+section:nth-child(1){
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+}
+section:nth-child(2){
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+
+section:nth-child(3){
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+section:nth-child(4){
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+@media screen and (max-width:1000px){
+    section {
+        height: 1000px;
+    }
+}
